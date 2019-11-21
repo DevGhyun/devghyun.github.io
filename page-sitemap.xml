@@ -8,6 +8,13 @@
     </url>
     
     <url>
+        <loc>https://devghyun.github.io/tags/</loc>
+        <lastmod>2019-11-21T14:02:15.064Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://devghyun.github.io/about/</loc>
         <lastmod>2019-11-20T13:42:57.796Z</lastmod>
         <changefreq>weekly</changefreq>
