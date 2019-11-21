@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://devghyun.github.io/"/>
-  <updated>2019-11-20T14:21:09.665Z</updated>
+  <updated>2019-11-21T06:58:31.212Z</updated>
   <id>https://devghyun.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>flutter 키보드 숨기기</title>
+    <link href="https://devghyun.github.io/2019/11/21/flutter%20%ED%82%A4%EB%B3%B4%EB%93%9C%20%EC%88%A8%EA%B8%B0%EA%B8%B0/"/>
+    <id>https://devghyun.github.io/2019/11/21/flutter%20%ED%82%A4%EB%B3%B4%EB%93%9C%20%EC%88%A8%EA%B8%B0%EA%B8%B0/</id>
+    <published>2019-11-21T06:49:04.000Z</published>
+    <updated>2019-11-21T06:58:31.212Z</updated>
+    
+    <content type="html"><![CDATA[<p>회원가입이나 정보를 입력 받을때 textformfield를 쓰는데 모양은 같게 하고<br>picker를 보여주거나 dialog를 보여주고 싶을때가 있을것이다.</p><p>버튼의 UI를 변경해서 같은 모양으로 만들어서 처리 할 수도 있을것 같았지만 너무나도 번거러운 작업이 될것같아 클릭했을때 키보드를 숨기고 다른 오브젝트를 보여주면 될것 같아 구글링!!</p><p><a href="https://flutterigniter.com/dismiss-keyboard-form-lose-focus/" target="_blank" rel="noopener">참고 사이트</a></p><p>키보드를 사라지게 하고 싶은 타이밍(onTap,onPress 등등)에</p><pre><code>currentFocus.unfocus();</code></pre><p>이걸 사용하면 된다!!</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;회원가입이나 정보를 입력 받을때 textformfield를 쓰는데 모양은 같게 하고&lt;br&gt;picker를 보여주거나 dialog를 보여주고 싶을때가 있을것이다.&lt;/p&gt;
+&lt;p&gt;버튼의 UI를 변경해서 같은 모양으로 만들어서 처리 할 수도 있을것 같았지
+      
+    
+    </summary>
+    
+    
+    
+      <category term="flutter" scheme="https://devghyun.github.io/tags/flutter/"/>
+    
+      <category term="focus" scheme="https://devghyun.github.io/tags/focus/"/>
+    
+      <category term="keyboard" scheme="https://devghyun.github.io/tags/keyboard/"/>
+    
+      <category term="textformfield" scheme="https://devghyun.github.io/tags/textformfield/"/>
+    
+  </entry>
   
   <entry>
     <title>flutter firebase 인증시 팅기는 문제</title>
