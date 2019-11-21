@@ -125,8 +125,8 @@ function dismissSearchResultModal() {
 			<p>회원가입이나 정보를 입력 받을때 textformfield를 쓰는데 모양은 같게 하고<br>picker를 보여주거나 dialog를 보여주고 싶을때가 있을것이다.</p>
 <p>버튼의 UI를 변경해서 같은 모양으로 만들어서 처리 할 수도 있을것 같았지만 너무나도 번거러운 작업이 될것같아 클릭했을때 키보드를 숨기고 다른 오브젝트를 보여주면 될것 같아 구글링!!</p>
 <p><a href="https://flutterigniter.com/dismiss-keyboard-form-lose-focus/" target="_blank" rel="noopener">참고 사이트</a></p>
-<p>키보드를 사라지게 하고 싶은 타이밍(onTap,onPress 등등)에</p>
-<pre><code>currentFocus.unfocus();</code></pre><p>이걸 사용하면 된다!!</p>
+<h2 id="키보드를-사라지게-하고-싶은-타이밍-onTap-onPress-등등-에"><a href="#키보드를-사라지게-하고-싶은-타이밍-onTap-onPress-등등-에" class="headerlink" title="키보드를 사라지게 하고 싶은 타이밍(onTap,onPress 등등)에"></a>키보드를 사라지게 하고 싶은 타이밍(onTap,onPress 등등)에</h2><pre><code>FocusScopeNode currentFocus = FocusScope.of(context);
+currentFocus.unfocus();</code></pre><p>이걸 사용하면 된다!!</p>
 
 		</div>
 	</div>
