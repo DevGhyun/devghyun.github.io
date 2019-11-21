@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>한삽 한삽 떠서 성을 짓자!!</title>
+  
+  <subtitle>DevGhyun&#39;s Blog</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://devghyun.github.io/"/>
+  <updated>2019-11-20T14:21:09.665Z</updated>
+  <id>https://devghyun.github.io/</id>
+  
+  <author>
+    <name>DevGhyun</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>flutter firebase 인증시 팅기는 문제</title>
+    <link href="https://devghyun.github.io/2019/11/20/flutter%20firebase%20%EC%9D%B8%EC%A6%9D%ED%95%98%EB%A9%B4%20%ED%8C%85%EA%B8%B8%EB%95%8C/"/>
+    <id>https://devghyun.github.io/2019/11/20/flutter%20firebase%20%EC%9D%B8%EC%A6%9D%ED%95%98%EB%A9%B4%20%ED%8C%85%EA%B8%B8%EB%95%8C/</id>
+    <published>2019-11-20T13:54:47.000Z</published>
+    <updated>2019-11-20T14:21:09.665Z</updated>
+    
+    <content type="html"><![CDATA[<p>잘되던 구글 인증이 로그인이나 회원 가입만 하면 팅겨서 지옥을 맛보다가 갓택오버플로우에서 답을 찾았다</p><pre><code>java.lang.ClassNotFoundException: Didn&apos;t find class &quot;android.support.v4.util.ArrayMap&quot;</code></pre><p>위와 같은 에러가 떳는데 웹만 만들어본 나는 엄마가 보고 싶어졌다.</p><p>네이티브 환경을 잘 몰라서 스택오버플로우 답변을 봐도 당최 무슨말인지….</p><p>비슷한 문제를 겪는 사람이 많던데 난 이렇게 해결했다!!!!</p><h3 id="gradle-properties에-아래-항목을-추가해서-해결"><a href="#gradle-properties에-아래-항목을-추가해서-해결" class="headerlink" title="gradle.properties에 아래 항목을 추가해서 해결"></a>gradle.properties에 아래 항목을 추가해서 해결</h3><pre><code>android.useAndroidX=trueandroid.enableJetifier=true</code></pre><p>혹시나 이게 무슨 의미를 가지는 값들인지 아시는분 저 좀 알려주세요!!</p><p>나의 첫 블로그 글은 여기까지!!</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;잘되던 구글 인증이 로그인이나 회원 가입만 하면 팅겨서 지옥을 맛보다가 갓택오버플로우에서 답을 찾았다&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;java.lang.ClassNotFoundException: Didn&amp;apos;t find class &amp;quot;an
+      
+    
+    </summary>
+    
+    
+    
+      <category term="flutter" scheme="https://devghyun.github.io/tags/flutter/"/>
+    
+      <category term="firebase" scheme="https://devghyun.github.io/tags/firebase/"/>
+    
+  </entry>
+  
+</feed>
