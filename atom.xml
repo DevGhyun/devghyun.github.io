@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://devghyun.github.io/"/>
-  <updated>2019-11-23T05:15:55.267Z</updated>
+  <updated>2019-11-28T09:45:35.023Z</updated>
   <id>https://devghyun.github.io/</id>
   
   <author>
@@ -17,13 +17,51 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>flutter firebaseauth 예외처리</title>
+    <link href="https://devghyun.github.io/2019/11/28/[flutter]%20firebaseauth%20%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC/"/>
+    <id>https://devghyun.github.io/2019/11/28/[flutter]%20firebaseauth%20%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC/</id>
+    <published>2019-11-28T09:39:05.000Z</published>
+    <updated>2019-11-28T09:45:35.023Z</updated>
+    
+    <content type="html"><![CDATA[<p>회원가입과 로그인을 firebase를 사용하고 있는데 비밀번호가 틀리거나 정상적으로 통과 하지 못했을때 에러로 처리가 된다. </p><ul><li>try catch 같은 구문을 사용하여 처리 해야한다. </li></ul><h2 id="오늘도-갓택플로우에서-발견"><a href="#오늘도-갓택플로우에서-발견" class="headerlink" title="오늘도 갓택플로우에서 발견"></a>오늘도 갓택플로우에서 발견</h2><p><a href="https://stackoverflow.com/questions/56113778/how-to-handle-firebase-auth-exceptions-on-flutter" target="_blank" rel="noopener">참조한 원본</a></p><pre><code>switch (error.code) {  case &quot;ERROR_INVALID_EMAIL&quot;:    errorMessage = &quot;Your email address appears to be malformed.&quot;;    break;  case &quot;ERROR_WRONG_PASSWORD&quot;:    errorMessage = &quot;Your password is wrong.&quot;;    break;  case &quot;ERROR_USER_NOT_FOUND&quot;:    errorMessage = &quot;User with this email doesn&apos;t exist.&quot;;    break;  case &quot;ERROR_USER_DISABLED&quot;:    errorMessage = &quot;User with this email has been disabled.&quot;;    break;  case &quot;ERROR_TOO_MANY_REQUESTS&quot;:    errorMessage = &quot;Too many requests. Try again later.&quot;;    break;  case &quot;ERROR_OPERATION_NOT_ALLOWED&quot;:    errorMessage = &quot;Signing in with Email and Password is not enabled.&quot;;    break;  default:    errorMessage = &quot;An undefined Error happened.&quot;;}</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;회원가입과 로그인을 firebase를 사용하고 있는데 비밀번호가 틀리거나 정상적으로 통과 하지 못했을때 에러로 처리가 된다. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;try catch 같은 구문을 사용하여 처리 해야한다. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;오늘
+      
+    
+    </summary>
+    
+    
+    
+      <category term="flutter" scheme="https://devghyun.github.io/tags/flutter/"/>
+    
+      <category term="firebase" scheme="https://devghyun.github.io/tags/firebase/"/>
+    
+      <category term="firebaseauth" scheme="https://devghyun.github.io/tags/firebaseauth/"/>
+    
+      <category term="exception" scheme="https://devghyun.github.io/tags/exception/"/>
+    
+      <category term="try" scheme="https://devghyun.github.io/tags/try/"/>
+    
+      <category term="catch" scheme="https://devghyun.github.io/tags/catch/"/>
+    
+  </entry>
+  
+  <entry>
     <title>android shortcut</title>
     <link href="https://devghyun.github.io/2019/11/22/android%20studio%20shortcut/"/>
     <id>https://devghyun.github.io/2019/11/22/android%20studio%20shortcut/</id>
     <published>2019-11-22T14:47:51.000Z</published>
-    <updated>2019-11-23T05:15:55.267Z</updated>
+    <updated>2019-11-26T08:31:38.446Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="android-shortcut"><a href="#android-shortcut" class="headerlink" title="android shortcut"></a>android shortcut</h1><h2 id="안드로이드-스튜디오-단축키-맥기준"><a href="#안드로이드-스튜디오-단축키-맥기준" class="headerlink" title="안드로이드 스튜디오 단축키(맥기준)"></a>안드로이드 스튜디오 단축키(맥기준)</h2><blockquote><p>필요한 부분 선택 + option키 + 엔터</p><blockquote><p>import나 widget으로 감쌀때 </p></blockquote></blockquote><blockquote><p>command + 클릭</p><blockquote><p>클릭한 항목의 세부사항을 볼 수 있다</p></blockquote></blockquote><blockquote><p>밖으로 뺄 항목 드래그 + command + option + m</p><blockquote><p>드래그 한 부분을 다른 widget으로 구성해준다</p></blockquote></blockquote><blockquote><p>항목 선택 + shift + F6</p><blockquote><p>선택한 부분을 이름을 바꾸면 선택한 부분을 사용하는 모든 코드에서 같이 이름이 바뀐다</p></blockquote></blockquote><h3 id="계속-업데이트-됩니다"><a href="#계속-업데이트-됩니다" class="headerlink" title="계속 업데이트 됩니다."></a>계속 업데이트 됩니다.</h3>]]></content>
+    <content type="html"><![CDATA[<h1 id="android-shortcut"><a href="#android-shortcut" class="headerlink" title="android shortcut"></a>android shortcut</h1><h2 id="안드로이드-스튜디오-단축키-맥기준"><a href="#안드로이드-스튜디오-단축키-맥기준" class="headerlink" title="안드로이드 스튜디오 단축키(맥기준)"></a>안드로이드 스튜디오 단축키(맥기준)</h2><blockquote><p>필요한 부분 선택 + option키 + 엔터</p><blockquote><p>import나 widget으로 감쌀때</p></blockquote></blockquote><blockquote><p>command + 클릭</p><blockquote><p>클릭한 항목의 세부사항을 볼 수 있다</p></blockquote></blockquote><blockquote><p>밖으로 뺄 항목 드래그 + command + option + m</p><blockquote><p>드래그 한 부분을 다른 widget으로 구성해준다</p></blockquote></blockquote><blockquote><p>항목 선택 + shift + F6</p><blockquote><p>선택한 부분을 이름을 바꾸면 선택한 부분을 사용하는 모든 코드에서 같이 이름이 바뀐다</p></blockquote></blockquote><h3 id="계속-업데이트-됩니다"><a href="#계속-업데이트-됩니다" class="headerlink" title="계속 업데이트 됩니다."></a>계속 업데이트 됩니다.</h3>]]></content>
     
     <summary type="html">
     
