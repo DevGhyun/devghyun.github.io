@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         
-        <title>Archive | 한삽 한삽 떠서 성을 짓자!!</title>
+        <title>flutter route시 provider 사용 | 한삽 한삽 떠서 성을 짓자!!</title>
         
         <link rel="alternate" href="/atom.xml" title="한삽 한삽 떠서 성을 짓자!!" type="application/atom+xml">
         
@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="/css/style.css">
         <link rel="stylesheet" href="/css/common.css">
         <link rel="stylesheet" href="/css/markdown.css">
-        <link rel="canonical" href="https://devghyun.github.io/archives/"/>
+        <link rel="canonical" href="https://devghyun.github.io/2019/12/09/[flutter]route시 provider 사용/"/>
         <script data-ad-client="ca-pub-3204796311092212" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   
     </head>
@@ -34,7 +34,7 @@
       <li class=""> <a href="/">Home</a> </li>
       
       
-      <li class="active"> <a href="/archives">Archive</a> </li>
+      <li class="active dotted"> <a href="/archives">Archive</a> </li>
       
       
       <li class=""> <a href="/tags">Tags</a> </li>
@@ -73,7 +73,7 @@
       <li class=""> <a href="/">Home</a> </li>
       
       
-      <li class="active"> <a href="/archives">Archive</a> </li>
+      <li class="active dotted"> <a href="/archives">Archive</a> </li>
       
       
       <li class=""> <a href="/tags">Tags</a> </li>
@@ -124,61 +124,67 @@ function dismissSearchResultModal() {
 }
 </script>
 </div>
-<div class="section" id="Archive">
-    <h2 class="center">Archive</h2>
-    <div class="post-list">
-        
-        
-        
-        
-        
-        
-        
-        <h4>2019</h4>
-        
-        <p class="post-title"><span>Dec 9, 2019</span><a href="/2019/12/09/%5Bflutter%5Droute%EC%8B%9C%20provider%20%EC%82%AC%EC%9A%A9/">flutter route시 provider 사용</a></p>
-        
-        
-        
-        
-        
-        <p class="post-title"><span>Nov 28, 2019</span><a href="/2019/11/28/flutter%20loading%20indicator%20%EC%98%88%EC%A0%9C/">flutter loading indicator 예제</a></p>
-        
-        
-        
-        
-        
-        <p class="post-title"><span>Nov 28, 2019</span><a href="/2019/11/28/%5Bflutter%5D%20firebaseauth%20%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC/">flutter firebaseauth 예외처리</a></p>
-        
-        
-        
-        
-        
-        <p class="post-title"><span>Nov 22, 2019</span><a href="/2019/11/22/android%20studio%20shortcut/">android shortcut</a></p>
-        
-        
-        
-        
-        
-        <p class="post-title"><span>Nov 21, 2019</span><a href="/2019/11/21/flutter%20%EA%B0%95%EC%9D%98%20%EC%B6%94%EC%B2%9C/">flutter 강의 추천</a></p>
-        
-        
-        
-        
-        
-        <p class="post-title"><span>Nov 21, 2019</span><a href="/2019/11/21/flutter%20%ED%82%A4%EB%B3%B4%EB%93%9C%20%EC%88%A8%EA%B8%B0%EA%B8%B0/">flutter 키보드 숨기기</a></p>
-        
-        
-        
-        
-        
-        <p class="post-title"><span>Nov 20, 2019</span><a href="/2019/11/20/flutter%20firebase%20%EC%9D%B8%EC%A6%9D%ED%95%98%EB%A9%B4%20%ED%8C%85%EA%B8%B8%EB%95%8C/">flutter firebase 인증시 팅기는 문제</a></p>
-        
-    </div>
+<div class="section" id="Post">
+	<div class="section_content">
+		<p class="breadcrumb"><a href="/">Q&amp;A</a> / flutter route시 provider 사용</p>
+		<div class="page_content mdcss">
+			<h2 id="page-route시-provider가-사용이-안되는-문제가-발생했다-온갖-삽질을-다하다가-오늘도-역시-스택오버플로우에서-찾았다"><a href="#page-route시-provider가-사용이-안되는-문제가-발생했다-온갖-삽질을-다하다가-오늘도-역시-스택오버플로우에서-찾았다" class="headerlink" title="page route시 provider가 사용이 안되는 문제가 발생했다. 온갖 삽질을 다하다가 오늘도 역시 스택오버플로우에서 찾았다!!"></a>page route시 provider가 사용이 안되는 문제가 발생했다. 온갖 삽질을 다하다가 오늘도 역시 스택오버플로우에서 찾았다!!</h2><hr>
+<p><a href="https://stackoverflow.com/questions/57913888/how-to-consume-provider-after-navigating-to-another-route" target="_blank" rel="noopener">참조 출처: 스택오버플로우</a></p>
+<p>지금까지 indexedstack 이나 tab을 사용해서 페이지를 만들었었다. multiprovider를 main에 연결 시켜놔서 지금까지 문제가 없다가 push를 통해 페이지를 이동하니 provider가 사용이 안되는 문제가 발생.</p>
+<h3 id="해결방법"><a href="#해결방법" class="headerlink" title="해결방법"></a>해결방법</h3><ul>
+<li>알고보면 아주 심플한 방법이었다</li>
+<li>page route 시 provider 를 같이 보내준다.(이표현이 맞나?ㅎㅎ)</li>
+</ul>
+<h2 id="예제코드"><a href="#예제코드" class="headerlink" title="예제코드"></a>예제코드</h2><hr>
+<pre><code>onPressed: (){
+    Navigator.push(context, MaterialPageRoute(
+        builder: (context)=&gt;ChangeNotifierProvider.value(
+            value:Datas(), child: ManageGuild(gid: _datas.guildId,)
+        )
+    ));
+},</code></pre><ul>
+<li>핵심은 아래 코드</li>
+<li>builder: (context)=&gt;ChangeNotifierProvider.value(value:Datas(), child: ManageGuild())</li>
+</ul>
+
+		</div>
+	</div>
+
+	
+
+	
+	<div id="disqus_thread"></div>
+	<script>
+	/**
+	*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+	*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+	/*
+	var disqus_config = function () {
+	this.page.url = "https://devghyun.github.io/2019/12/09/[flutter]route%EC%8B%9C%20provider%20%EC%82%AC%EC%9A%A9/";  // Replace PAGE_URL with your page's canonical URL variable
+	this.page.identifier = "2019/12/09/[flutter]route시 provider 사용/"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	};
+	*/
+	(function() { // DON'T EDIT BELOW THIS LINE
+	var d = document, s = d.createElement('script');
+	s.src = '//devghyun.disqus.com/embed.js';
+	s.setAttribute('data-timestamp', +new Date());
+	(d.head || d.body).appendChild(s);
+	})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
+	
+	
 </div>
 
 	
 	
+	
+	<div class="section" id="Pagenation">
+		
+		
+		<a href="/2019/11/28/flutter%20loading%20indicator%20%EC%98%88%EC%A0%9C/">Next</a>
+		
+	</div>
 	
 
             <footer>

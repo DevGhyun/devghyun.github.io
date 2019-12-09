@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://devghyun.github.io/"/>
-  <updated>2019-11-28T09:58:54.197Z</updated>
+  <updated>2019-12-09T15:00:17.192Z</updated>
   <id>https://devghyun.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>flutter route시 provider 사용</title>
+    <link href="https://devghyun.github.io/2019/12/09/[flutter]route%EC%8B%9C%20provider%20%EC%82%AC%EC%9A%A9/"/>
+    <id>https://devghyun.github.io/2019/12/09/[flutter]route%EC%8B%9C%20provider%20%EC%82%AC%EC%9A%A9/</id>
+    <published>2019-12-09T14:42:20.000Z</published>
+    <updated>2019-12-09T15:00:17.192Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="page-route시-provider가-사용이-안되는-문제가-발생했다-온갖-삽질을-다하다가-오늘도-역시-스택오버플로우에서-찾았다"><a href="#page-route시-provider가-사용이-안되는-문제가-발생했다-온갖-삽질을-다하다가-오늘도-역시-스택오버플로우에서-찾았다" class="headerlink" title="page route시 provider가 사용이 안되는 문제가 발생했다. 온갖 삽질을 다하다가 오늘도 역시 스택오버플로우에서 찾았다!!"></a>page route시 provider가 사용이 안되는 문제가 발생했다. 온갖 삽질을 다하다가 오늘도 역시 스택오버플로우에서 찾았다!!</h2><hr><p><a href="https://stackoverflow.com/questions/57913888/how-to-consume-provider-after-navigating-to-another-route" target="_blank" rel="noopener">참조 출처: 스택오버플로우</a></p><p>지금까지 indexedstack 이나 tab을 사용해서 페이지를 만들었었다. multiprovider를 main에 연결 시켜놔서 지금까지 문제가 없다가 push를 통해 페이지를 이동하니 provider가 사용이 안되는 문제가 발생.</p><h3 id="해결방법"><a href="#해결방법" class="headerlink" title="해결방법"></a>해결방법</h3><ul><li>알고보면 아주 심플한 방법이었다</li><li>page route 시 provider 를 같이 보내준다.(이표현이 맞나?ㅎㅎ)</li></ul><h2 id="예제코드"><a href="#예제코드" class="headerlink" title="예제코드"></a>예제코드</h2><hr><pre><code>onPressed: (){    Navigator.push(context, MaterialPageRoute(        builder: (context)=&gt;ChangeNotifierProvider.value(            value:Datas(), child: ManageGuild(gid: _datas.guildId,)        )    ));},</code></pre><ul><li>핵심은 아래 코드</li><li>builder: (context)=&gt;ChangeNotifierProvider.value(value:Datas(), child: ManageGuild())</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;page-route시-provider가-사용이-안되는-문제가-발생했다-온갖-삽질을-다하다가-오늘도-역시-스택오버플로우에서-찾았다&quot;&gt;&lt;a href=&quot;#page-route시-provider가-사용이-안되는-문제가-발생했다-온갖-삽질을-다하다
+      
+    
+    </summary>
+    
+    
+    
+      <category term="flutter" scheme="https://devghyun.github.io/tags/flutter/"/>
+    
+      <category term="provider" scheme="https://devghyun.github.io/tags/provider/"/>
+    
+      <category term="routes" scheme="https://devghyun.github.io/tags/routes/"/>
+    
+  </entry>
   
   <entry>
     <title>flutter loading indicator 예제</title>

@@ -3,6 +3,27 @@
 
 
     <url>
+        <loc>https://devghyun.github.io/tags/routes/</loc>
+        <lastmod>2019-12-09T15:00:17.192Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://devghyun.github.io/tags/provider/</loc>
+        <lastmod>2019-12-09T15:00:17.192Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://devghyun.github.io/tags/flutter/</loc>
+        <lastmod>2019-12-09T15:00:17.192Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://devghyun.github.io/tags/dialog/</loc>
         <lastmod>2019-11-28T09:58:54.197Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -32,13 +53,6 @@
 
     <url>
         <loc>https://devghyun.github.io/tags/loading/</loc>
-        <lastmod>2019-11-28T09:58:54.197Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://devghyun.github.io/tags/flutter/</loc>
         <lastmod>2019-11-28T09:58:54.197Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
