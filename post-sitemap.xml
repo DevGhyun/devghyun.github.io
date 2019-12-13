@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://devghyun.github.io/2019/11/21/flutter%20%EA%B0%95%EC%9D%98%20%EC%B6%94%EC%B2%9C/</loc>
+        <lastmod>2019-12-13T05:33:19.394Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://devghyun.github.io/2019/12/09/%5Bflutter%5Droute%EC%8B%9C%20provider%20%EC%82%AC%EC%9A%A9/</loc>
         <lastmod>2019-12-09T15:00:17.192Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -34,14 +42,6 @@
     <url>
         <loc>https://devghyun.github.io/2019/11/22/android%20studio%20shortcut/</loc>
         <lastmod>2019-11-26T08:31:38.446Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://devghyun.github.io/2019/11/21/flutter%20%EA%B0%95%EC%9D%98%20%EC%B6%94%EC%B2%9C/</loc>
-        <lastmod>2019-11-21T07:09:26.279Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

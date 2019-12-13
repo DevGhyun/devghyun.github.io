@@ -3,6 +3,27 @@
 
 
     <url>
+        <loc>https://devghyun.github.io/tags/youtude/</loc>
+        <lastmod>2019-12-13T05:33:19.394Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://devghyun.github.io/tags/%25EA%25B0%2595%25EC%259D%2598-%25EC%25B6%2594%25EC%25B2%259C/</loc>
+        <lastmod>2019-12-13T05:33:19.394Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://devghyun.github.io/tags/flutter/</loc>
+        <lastmod>2019-12-13T05:33:19.394Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://devghyun.github.io/tags/routes/</loc>
         <lastmod>2019-12-09T15:00:17.192Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -11,13 +32,6 @@
 
     <url>
         <loc>https://devghyun.github.io/tags/provider/</loc>
-        <lastmod>2019-12-09T15:00:17.192Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://devghyun.github.io/tags/flutter/</loc>
         <lastmod>2019-12-09T15:00:17.192Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -103,20 +117,6 @@
     <url>
         <loc>https://devghyun.github.io/tags/android-studio/</loc>
         <lastmod>2019-11-26T08:31:38.446Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://devghyun.github.io/tags/youtude/</loc>
-        <lastmod>2019-11-21T07:09:26.279Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://devghyun.github.io/tags/%25EA%25B0%2595%25EC%259D%2598-%25EC%25B6%2594%25EC%25B2%259C/</loc>
-        <lastmod>2019-11-21T07:09:26.279Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
