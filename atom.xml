@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://devghyun.github.io/"/>
-  <updated>2020-07-15T11:50:07.009Z</updated>
+  <updated>2019-12-09T15:00:17.192Z</updated>
   <id>https://devghyun.github.io/</id>
   
   <author>
@@ -15,21 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Keynote</title>
-    <link href="https://devghyun.github.io/2020/07/15/Keynote/"/>
-    <id>https://devghyun.github.io/2020/07/15/Keynote/</id>
-    <published>2020-07-15T11:48:16.000Z</published>
-    <updated>2020-07-15T11:50:07.009Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
   
   <entry>
     <title>flutter route시 provider 사용</title>
