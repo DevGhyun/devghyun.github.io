@@ -8,7 +8,7 @@
       <link href="/2020/07/15/Keynote/"/>
       <url>/2020/07/15/Keynote/</url>
       
-        <content type="html"><![CDATA[<h1 id="Docker-활용"><a href="#Docker-활용" class="headerlink" title="Docker 활용"></a>Docker 활용</h1><pre><code>docker -v</code></pre><p>버전 확인</p><pre><code>exit</code></pre><p>컨테이너 정지 후 컨테이너 나오기</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="Docker-활용"><a href="#Docker-활용" class="headerlink" title="Docker 활용"></a>Docker 활용</h1><pre><code>docker -v#버전 확인 exit#컨테이너 정지 후 컨테이너 나오기ctrl + p,q#컨테이너 정지 안하고 컨테이너 나오기docker images#도커 이미지들 보기</code></pre>]]></content>
       
       
       
