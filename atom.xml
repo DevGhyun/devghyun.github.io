@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://devghyun.github.io/"/>
-  <updated>2020-07-15T12:14:28.882Z</updated>
+  <updated>2020-07-15T12:26:52.923Z</updated>
   <id>https://devghyun.github.io/</id>
   
   <author>
@@ -21,19 +21,19 @@
     <link href="https://devghyun.github.io/2020/07/15/Keynote/"/>
     <id>https://devghyun.github.io/2020/07/15/Keynote/</id>
     <published>2020-07-15T11:48:16.000Z</published>
-    <updated>2020-07-15T12:14:28.882Z</updated>
+    <updated>2020-07-15T12:26:52.923Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Docker-활용"><a href="#Docker-활용" class="headerlink" title="Docker 활용"></a>Docker 활용</h1><pre><code>docker -v#버전 확인 exit#컨테이너 정지 후 컨테이너 나오기ctrl + p,q#컨테이너 정지 안하고 컨테이너 나오기docker images#도커 이미지들 보기</code></pre>]]></content>
+    <content type="html"><![CDATA[<h1 id="Docker-활용"><a href="#Docker-활용" class="headerlink" title="Docker 활용"></a>Docker 활용</h1><pre><code># docker -v버전 확인 # exit컨테이너 정지 후 컨테이너 나오기ctrl + p,q컨테이너 정지 안하고 컨테이너 나오기# docker images도커 이미지들 보기# docker start &lt;컨테이너명&gt;  // docker stop &lt;컨테이너명&gt;컨테이너 실행 // 중단# docker attach &lt;컨테이너명&gt;컨테이너 입장# docker create 와 docker run 차이run 은 start와 attach 를 다 수행# docker ps컨테이너 목록 보기# docker rename &lt;기존 컨테이너명&gt; &lt;변경할 컨테이너명&gt;컨테이너 이름 바꾸기#docker rm &lt;컨테이너명&gt;컨테이너 삭제#docker run -i -t  //  docker run -d표준 입출력이 활성화 된 상태로 실행(명령어 입력 가능)// 백그라운드에서 실행중-i -t 는 리눅스 터미널 화면이고 -d 는 백그라운드에서 실행 되면서 로그만 보여줌</code></pre>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;Docker-활용&quot;&gt;&lt;a href=&quot;#Docker-활용&quot; class=&quot;headerlink&quot; title=&quot;Docker 활용&quot;&gt;&lt;/a&gt;Docker 활용&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;docker -v
-#버전 확인 
+        &lt;h1 id=&quot;Docker-활용&quot;&gt;&lt;a href=&quot;#Docker-활용&quot; class=&quot;headerlink&quot; title=&quot;Docker 활용&quot;&gt;&lt;/a&gt;Docker 활용&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;# docker -v
+버전 확인 
 
-exit
-#컨테이너 정지 후
+# exit
+컨테이너 정지
       
     
     </summary>
