@@ -155,14 +155,25 @@ run 은 start와 attach 를 다 수행
 # docker rename &lt;기존 컨테이너명&gt; &lt;변경할 컨테이너명&gt;
 컨테이너 이름 바꾸기
 
-#docker rm &lt;컨테이너명&gt;
+# docker rm &lt;컨테이너명&gt;
 컨테이너 삭제
 
-#docker run -i -t  //  docker run -d
+# docker run -i -t  //  docker run -d
 표준 입출력이 활성화 된 상태로 실행(명령어 입력 가능)
 // 백그라운드에서 실행중
 -i -t 는 리눅스 터미널 화면이고 
--d 는 백그라운드에서 실행 되면서 로그만 보여줌</code></pre>
+-d 는 백그라운드에서 실행 되면서 로그만 보여줌
+-e 는 환경변수 설정
+
+# docker exec -i -t &lt;컨테이너명&gt; /bin/bash
+exec 는 컨테이너 내부에서 명령어 실행한뒤 결괏값을 반환
+-i -t 옵션을 써서 입출력 가능하게 bin/bash 호출
+
+# docker run -p
+-p 는 포트 연결 옵션
+-p 3306:3306 포트 대 포트 연결(앞이 호스트 포트)
+-p 192.168.0.1:7777:80, -p 0.0.0.0:7777:80 이런식도 가능
+-p 80 알아서 호스트 포트와 컨테이너 80번 포트와 연결</code></pre>
 		</div>
 	</div>
 
