@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://devghyun.github.io/"/>
-  <updated>2019-12-09T15:00:17.192Z</updated>
+  <updated>2020-07-15T12:09:19.866Z</updated>
   <id>https://devghyun.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Docker cheatsheet</title>
+    <link href="https://devghyun.github.io/2020/07/15/Keynote/"/>
+    <id>https://devghyun.github.io/2020/07/15/Keynote/</id>
+    <published>2020-07-15T11:48:16.000Z</published>
+    <updated>2020-07-15T12:09:19.866Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Docker-활용"><a href="#Docker-활용" class="headerlink" title="Docker 활용"></a>Docker 활용</h1><pre><code>docker -v</code></pre><p>버전 확인</p><pre><code>exit</code></pre><p>컨테이너 정지 후 컨테이너 나오기</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Docker-활용&quot;&gt;&lt;a href=&quot;#Docker-활용&quot; class=&quot;headerlink&quot; title=&quot;Docker 활용&quot;&gt;&lt;/a&gt;Docker 활용&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;docker -v&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;버전 확인&lt;/p&gt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>flutter route시 provider 사용</title>

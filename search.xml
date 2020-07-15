@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Docker cheatsheet</title>
+      <link href="/2020/07/15/Keynote/"/>
+      <url>/2020/07/15/Keynote/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Docker-활용"><a href="#Docker-활용" class="headerlink" title="Docker 활용"></a>Docker 활용</h1><pre><code>docker -v</code></pre><p>버전 확인</p><pre><code>exit</code></pre><p>컨테이너 정지 후 컨테이너 나오기</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>flutter route시 provider 사용</title>
       <link href="/2019/12/09/%5Bflutter%5Droute%EC%8B%9C%20provider%20%EC%82%AC%EC%9A%A9/"/>
       <url>/2019/12/09/%5Bflutter%5Droute%EC%8B%9C%20provider%20%EC%82%AC%EC%9A%A9/</url>
