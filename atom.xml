@@ -49,7 +49,7 @@
     <link href="https://devghyun.github.io/2019/11/28/flutter%20loading%20indicator%20%EC%98%88%EC%A0%9C/"/>
     <id>https://devghyun.github.io/2019/11/28/flutter%20loading%20indicator%20%EC%98%88%EC%A0%9C/</id>
     <published>2019-11-28T09:52:53.000Z</published>
-    <updated>2019-11-28T09:58:54.197Z</updated>
+    <updated>2019-11-28T09:58:54.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="로그인시-시간이-조금-걸려서-loading-indicator를-찾다가-발견한-스택오버플로우-자료"><a href="#로그인시-시간이-조금-걸려서-loading-indicator를-찾다가-발견한-스택오버플로우-자료" class="headerlink" title="로그인시 시간이 조금 걸려서 loading indicator를 찾다가 발견한 스택오버플로우 자료"></a>로그인시 시간이 조금 걸려서 loading indicator를 찾다가 발견한 스택오버플로우 자료</h2><p><a href="https://stackoverflow.com/questions/47065098/how-to-work-with-progress-indicator-in-flutter" target="_blank" rel="noopener">로딩 인디케이터</a></p><p>난 스낵바 형식을 사용 하였다.</p><p>나도 자료를 내가 생산해내고 싶다 ㅠㅠ</p>]]></content>
     
@@ -83,7 +83,7 @@
     <link href="https://devghyun.github.io/2019/11/28/[flutter]%20firebaseauth%20%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC/"/>
     <id>https://devghyun.github.io/2019/11/28/[flutter]%20firebaseauth%20%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC/</id>
     <published>2019-11-28T09:39:05.000Z</published>
-    <updated>2019-11-28T09:51:21.012Z</updated>
+    <updated>2019-11-28T09:51:21.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="회원가입과-로그인을-firebase를-사용하고-있는데-비밀번호가-틀리거나-정상적으로-통과-하지-못했을때-에러로-처리가-된다"><a href="#회원가입과-로그인을-firebase를-사용하고-있는데-비밀번호가-틀리거나-정상적으로-통과-하지-못했을때-에러로-처리가-된다" class="headerlink" title="회원가입과 로그인을 firebase를 사용하고 있는데 비밀번호가 틀리거나 정상적으로 통과 하지 못했을때 에러로 처리가 된다."></a>회원가입과 로그인을 firebase를 사용하고 있는데 비밀번호가 틀리거나 정상적으로 통과 하지 못했을때 에러로 처리가 된다.</h3><ul><li>try catch 같은 구문을 사용하여 처리 해야한다.</li></ul><p>오늘도 갓택플로우에서 발견</p><p><a href="https://stackoverflow.com/questions/56113778/how-to-handle-firebase-auth-exceptions-on-flutter" target="_blank" rel="noopener">참조한 원본</a></p><pre><code>switch (error.code) {  case &quot;ERROR_INVALID_EMAIL&quot;:    errorMessage = &quot;Your email address appears to be malformed.&quot;;    break;  case &quot;ERROR_WRONG_PASSWORD&quot;:    errorMessage = &quot;Your password is wrong.&quot;;    break;  case &quot;ERROR_USER_NOT_FOUND&quot;:    errorMessage = &quot;User with this email doesn&apos;t exist.&quot;;    break;  case &quot;ERROR_USER_DISABLED&quot;:    errorMessage = &quot;User with this email has been disabled.&quot;;    break;  case &quot;ERROR_TOO_MANY_REQUESTS&quot;:    errorMessage = &quot;Too many requests. Try again later.&quot;;    break;  case &quot;ERROR_OPERATION_NOT_ALLOWED&quot;:    errorMessage = &quot;Signing in with Email and Password is not enabled.&quot;;    break;  default:    errorMessage = &quot;An undefined Error happened.&quot;;}</code></pre>]]></content>
     
@@ -117,7 +117,7 @@
     <link href="https://devghyun.github.io/2019/11/22/android%20studio%20shortcut/"/>
     <id>https://devghyun.github.io/2019/11/22/android%20studio%20shortcut/</id>
     <published>2019-11-22T14:47:51.000Z</published>
-    <updated>2019-11-26T08:31:38.446Z</updated>
+    <updated>2019-11-26T08:31:38.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="android-shortcut"><a href="#android-shortcut" class="headerlink" title="android shortcut"></a>android shortcut</h1><h2 id="안드로이드-스튜디오-단축키-맥기준"><a href="#안드로이드-스튜디오-단축키-맥기준" class="headerlink" title="안드로이드 스튜디오 단축키(맥기준)"></a>안드로이드 스튜디오 단축키(맥기준)</h2><blockquote><p>필요한 부분 선택 + option키 + 엔터</p><blockquote><p>import나 widget으로 감쌀때</p></blockquote></blockquote><blockquote><p>command + 클릭</p><blockquote><p>클릭한 항목의 세부사항을 볼 수 있다</p></blockquote></blockquote><blockquote><p>밖으로 뺄 항목 드래그 + command + option + m</p><blockquote><p>드래그 한 부분을 다른 widget으로 구성해준다</p></blockquote></blockquote><blockquote><p>항목 선택 + shift + F6</p><blockquote><p>선택한 부분을 이름을 바꾸면 선택한 부분을 사용하는 모든 코드에서 같이 이름이 바뀐다</p></blockquote></blockquote><h3 id="계속-업데이트-됩니다"><a href="#계속-업데이트-됩니다" class="headerlink" title="계속 업데이트 됩니다."></a>계속 업데이트 됩니다.</h3>]]></content>
     
@@ -173,7 +173,7 @@
     <link href="https://devghyun.github.io/2019/11/21/flutter%20%ED%82%A4%EB%B3%B4%EB%93%9C%20%EC%88%A8%EA%B8%B0%EA%B8%B0/"/>
     <id>https://devghyun.github.io/2019/11/21/flutter%20%ED%82%A4%EB%B3%B4%EB%93%9C%20%EC%88%A8%EA%B8%B0%EA%B8%B0/</id>
     <published>2019-11-21T06:49:04.000Z</published>
-    <updated>2019-11-21T07:00:37.674Z</updated>
+    <updated>2019-11-21T07:00:37.000Z</updated>
     
     <content type="html"><![CDATA[<p>회원가입이나 정보를 입력 받을때 textformfield를 쓰는데 모양은 같게 하고<br>picker를 보여주거나 dialog를 보여주고 싶을때가 있을것이다.</p><p>버튼의 UI를 변경해서 같은 모양으로 만들어서 처리 할 수도 있을것 같았지만 너무나도 번거러운 작업이 될것같아 클릭했을때 키보드를 숨기고 다른 오브젝트를 보여주면 될것 같아 구글링!!</p><p><a href="https://flutterigniter.com/dismiss-keyboard-form-lose-focus/" target="_blank" rel="noopener">참고 사이트</a></p><h2 id="키보드를-사라지게-하고-싶은-타이밍-onTap-onPress-등등-에"><a href="#키보드를-사라지게-하고-싶은-타이밍-onTap-onPress-등등-에" class="headerlink" title="키보드를 사라지게 하고 싶은 타이밍(onTap,onPress 등등)에"></a>키보드를 사라지게 하고 싶은 타이밍(onTap,onPress 등등)에</h2><pre><code>FocusScopeNode currentFocus = FocusScope.of(context);currentFocus.unfocus();</code></pre><p>이걸 사용하면 된다!!</p>]]></content>
     
@@ -204,7 +204,7 @@
     <link href="https://devghyun.github.io/2019/11/20/flutter%20firebase%20%EC%9D%B8%EC%A6%9D%ED%95%98%EB%A9%B4%20%ED%8C%85%EA%B8%B8%EB%95%8C/"/>
     <id>https://devghyun.github.io/2019/11/20/flutter%20firebase%20%EC%9D%B8%EC%A6%9D%ED%95%98%EB%A9%B4%20%ED%8C%85%EA%B8%B8%EB%95%8C/</id>
     <published>2019-11-20T13:54:47.000Z</published>
-    <updated>2019-11-20T14:21:09.665Z</updated>
+    <updated>2019-11-20T14:21:09.000Z</updated>
     
     <content type="html"><![CDATA[<p>잘되던 구글 인증이 로그인이나 회원 가입만 하면 팅겨서 지옥을 맛보다가 갓택오버플로우에서 답을 찾았다</p><pre><code>java.lang.ClassNotFoundException: Didn&apos;t find class &quot;android.support.v4.util.ArrayMap&quot;</code></pre><p>위와 같은 에러가 떳는데 웹만 만들어본 나는 엄마가 보고 싶어졌다.</p><p>네이티브 환경을 잘 몰라서 스택오버플로우 답변을 봐도 당최 무슨말인지….</p><p>비슷한 문제를 겪는 사람이 많던데 난 이렇게 해결했다!!!!</p><h3 id="gradle-properties에-아래-항목을-추가해서-해결"><a href="#gradle-properties에-아래-항목을-추가해서-해결" class="headerlink" title="gradle.properties에 아래 항목을 추가해서 해결"></a>gradle.properties에 아래 항목을 추가해서 해결</h3><pre><code>android.useAndroidX=trueandroid.enableJetifier=true</code></pre><p>혹시나 이게 무슨 의미를 가지는 값들인지 아시는분 저 좀 알려주세요!!</p><p>나의 첫 블로그 글은 여기까지!!</p>]]></content>
     
